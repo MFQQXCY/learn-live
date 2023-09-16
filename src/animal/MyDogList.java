@@ -24,9 +24,9 @@ class MyAnimalList{
     private Animal[] animals  = new Animal[5];
     private int nextAnimalIndex = 0;
 
-    void add(Animal dog){
+    void add(Animal animal){
         if(nextAnimalIndex < 5){
-            animals[nextAnimalIndex] = dog;
+            animals[nextAnimalIndex] = animal;
             nextAnimalIndex ++;
 
         }
