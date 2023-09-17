@@ -1,4 +1,4 @@
-package animal;
+package ploy.animal;
 
 public class TestInherite {
     public static void main(String[] args) {

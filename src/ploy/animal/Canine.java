@@ -1,4 +1,4 @@
-package animal;
+package ploy.animal;
 
 public abstract class Canine extends Animal{
 
