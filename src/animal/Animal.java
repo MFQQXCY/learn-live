@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Animal {
+
+    private String name;
+
+    public void setName(String name){
+        this.name = name;
+    }
+
     void eat(){
         System.out.println("animal eatting!");
     }
@@ -17,4 +24,11 @@ public class Animal {
     void testArgs(int a){
         System.out.println(a+"");
     }
+
+    @Override
+    public String toString() {
+        return "Animal [name=" + name + "]";
+    }
+
+    
 }

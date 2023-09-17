@@ -19,6 +19,12 @@ public class Feline extends Animal{
         return a;
     }
 
+    @Override
+    public String toString() {
+        
+        return super.toString() + "Feline []";
+    }
+
     // @Override
     // void testArgs(Integer a){
     //     System.out.println(a+"");
