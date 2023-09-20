@@ -60,6 +60,13 @@ public class SongV3{
         return true;
     }
 
+    @Override
+    public String toString() {
+        return "SongV3 [title=" + title + ", artist=" + artist + ", bpm=" + bpm + "]\n";
+    }
+
+    
+
     
 
     

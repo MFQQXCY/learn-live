@@ -34,7 +34,10 @@ public class MockSongs{
         songs.add(new SongV3("$10","hitchhiker",140));
         songs.add(new SongV3("havana","cabello",105));
         songs.add(new SongV3("Cassidy","grateful dead",158));
+        songs.add(new SongV3("Cassidy","grateful dead",158));
         songs.add(new SongV3("50 Ways","simon",102));
         return songs;
     }
+
+
 }
