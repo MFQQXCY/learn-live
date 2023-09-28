@@ -35,7 +35,15 @@ public class MyGui {
         frame.add(BorderLayout.SOUTH, colorButton);
         frame.add(BorderLayout.CENTER,new DrawPanel());
         frame.add(BorderLayout.WEST, label);
-        frame.add(BorderLayout.EAST, labelButton);        
+        frame.add(BorderLayout.EAST, labelButton);   
+        
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(300, 300);
+        frame.setVisible(true);
+    }
+
+    public static void main(String[] args) {
+        new MyGui().gui();
     }
 
     public JFrame getFrame() {
