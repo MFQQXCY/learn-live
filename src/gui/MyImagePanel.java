@@ -11,7 +11,9 @@ public class MyImagePanel extends JPanel{
 
     @Override
     protected void paintComponent(Graphics g) {
-        Image image = new ImageIcon("").getImage();
+        // Image image = new ImageIcon("/gui/101000618101_0.PNG").getImage();
+        // 将图片文件放置在此类class文件同目录下即可
+        Image image = new ImageIcon(getClass().getResource("101000618101_0.PNG")).getImage();
         g.drawImage(image, 3, 4, this);
     }
 
