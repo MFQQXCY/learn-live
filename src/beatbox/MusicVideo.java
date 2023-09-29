@@ -37,6 +37,7 @@ public class MusicVideo {
         frame.setContentPane(panel);
         frame.setBounds(30, 30, 300, 300);
         frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     public void go() {
